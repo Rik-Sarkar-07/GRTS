@@ -1,0 +1,18 @@
+python -m torch.distributed.launch --nproc_per_node=1 main.py --data_dir /home/others/J20250297/Sudipta/ANET/Dataset/UCMerced_LandUse --dataset uc_merced --opt adamw --lr 8e-4 --min-lr 1e-6 --epochs 50 --sched cosine --batch-size 20 --num_workers 4 --mixup 0.8 --cutmix 1.0 --drop-path 0.2 --warmup-epochs 5 --no-amp --input_size 224 --output_dir /home/others/J20250297/Sudipta/ANET/GRTS/output/ucm/test3 --weight-decay 0.05 --clip-grad 1.0 --smoothing 0.02 --dropout 0.6
+
+
+
+python -m torch.distributed.launch --nproc_per_node=1 main.py --data_dir /home/others/J20250297/Sudipta/ANET/Dataset/UCMerced_LandUse --dataset uc_merced --opt adamw --lr 4e-4 --min-lr 1e-6 --epochs 50 --sched cosine --batch-size 20 --num_workers 4 --mixup 0.8 --cutmix 1.0 --drop-path 0.2 --warmup-epochs 5 --no-amp --input_size 224 --output_dir /home/others/J20250297/Sudipta/ANET/GRTS/output/ucm/test4 --weight-decay 0.05 --clip-grad 1.0 --smoothing 0.02 --dropout 0.4
+
+
+python -m torch.distributed.launch --nproc_per_node=1 main.py --data_dir /home/others/J20250297/Sudipta/ANET/Dataset/UCMerced_LandUse --dataset uc_merced --opt adamw --lr 2e-4 --min-lr 1e-6 --epochs 50 --sched cosine --batch-size 20 --num_workers 4 --mixup 0.8 --cutmix 1.0 --drop-path 0.2 --warmup-epochs 5 --no-amp --input_size 224 --output_dir /home/others/J20250297/Sudipta/ANET/GRTS/output/ucm/test5 --weight-decay 0.05 --clip-grad 1.0 --smoothing 0.02 --dropout 0.4
+
+
+python -m torch.distributed.launch --nproc_per_node=1 main.py --data_dir /home/others/J20250297/Sudipta/ANET/Dataset/UCMerced_LandUse --dataset uc_merced --opt adamw --lr 4e-4 --min-lr 1e-6 --epochs 50 --sched cosine --batch-size 20 --num_workers 4 --mixup 0.8 --cutmix 1.0 --drop-path 0.2 --warmup-epochs 5 --no-amp --input_size 224 --output_dir /home/others/J20250297/Sudipta/ANET/GRTS/output/ucm/test6 --weight-decay 0.05 --clip-grad 1.0 --smoothing 0.01 --dropout 0.4
+
+
+python -m torch.distributed.launch --nproc_per_node=1 main.py --data_dir /home/others/J20250297/Sudipta/ANET/Dataset/UCMerced_LandUse --dataset uc_merced --opt adamw --lr 4e-4 --min-lr 1e-6 --epochs 50 --sched cosine --batch-size 20 --num_workers 4 --mixup 0.8 --cutmix 1.0 --drop-path 0.1 --warmup-epochs 5 --no-amp --input_size 224 --output_dir /home/others/J20250297/Sudipta/ANET/GRTS/output/ucm/test7 --weight-decay 0.05 --clip-grad 1.0 --smoothing 0.01 --dropout 0.4
+
+
+
+python -m torch.distributed.launch --nproc_per_node=1 main.py --data_dir /home/others/J20250297/Sudipta/ANET/Dataset/UCMerced_LandUse --dataset uc_merced --opt adamw --lr 4e-4 --min-lr 1e-6 --epochs 50 --sched cosine --batch-size 20 --num_workers 4 --mixup 0.8 --cutmix 1.0 --drop-path 0.1 --warmup-epochs 5 --no-amp --input_size 224 --output_dir /home/others/J20250297/Sudipta/ANET/GRTS/output/ucm/test8 --weight-decay 0.01 --clip-grad 1.0 --smoothing 0.01 --dropout 0.4
