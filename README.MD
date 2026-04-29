@@ -1,9 +1,6 @@
 
 # A Gated Residual Teacher–Student Framework for Feature Refinement in Image Classification
 
-**Sudipta Sarkar**  
-Email: sudiptasarkar3600@gmail.com  
-Year: 2026  
 
 ---
 
@@ -173,6 +170,7 @@ For questions or to share results, contact Sudipta Sarkar.
 ## Contact
 
 Sudipta Sarkar
+
 📧 [sudiptasarkar3600@gmail.com](mailto:sudiptasarkar3600@gmail.com)
 
 © 2026 Sudipta Sarkar
