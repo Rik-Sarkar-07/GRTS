@@ -167,16 +167,25 @@ An illustration image can be placed here:
 - If you encounter issues with distributed launch on your platform, try running single-process training by invoking `python main.py ...` and adjusting batch size.
 
 For questions or to share results, contact Sudipta Sarkar.
+
+---
+
+# Citation
+
+The accompanying paper is currently under review. Citation information will be added once the manuscript becomes publicly available.
+
+---
+
+
 ## Contact
 
 Sudipta Sarkar
 
 📧 [sudiptasarkar3600@gmail.com](mailto:sudiptasarkar3600@gmail.com)
 
+# License
+
+This project is released under the **Apache 2.0 License**. See the **LICENSE** file for more details.
+
 © 2026 Sudipta Sarkar
-
-
-
-
-
 
