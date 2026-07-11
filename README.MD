@@ -149,7 +149,7 @@ xF ──► Main Classifier ──► logits_F
 
 An illustration image can be placed here:
 
-![Model diagram](pic_model.png)
+![Model diagram](pic.png)
 
 **Results**
 | Dataset   | Accuracy (%) |
